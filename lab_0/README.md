@@ -24,7 +24,8 @@ dx_f = diff(f, x)
 dy_f = diff(f, y)
 ```
 4. Вывод результатов и построение графика:
-```print(dx_f)
+```
+print(dx_f)
 print(dy_f)
 plot3d(f)
 ```

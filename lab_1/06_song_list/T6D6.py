@@ -46,4 +46,4 @@ total_time = sum(durations)
 
 total_rounded = round(total_time)
 
-print(f"А другие три песни звуачат {total_rounded} минут")
+print(f"А другие три песни звучат {total_rounded} минут")

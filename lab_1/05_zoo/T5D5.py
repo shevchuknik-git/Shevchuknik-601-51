@@ -8,7 +8,7 @@ for i in range(len(zoo) -1):
         result.insert(i + 1, 'bear')
 print(f"\nПосадите медведя (bear) между львом и кенгуру: \n{result}")
 
-birds = ['rooster', 'ostrich', 'lark', ]
+birds = ['rooster', 'ostrich', 'lark']
 
 for i in range(len(birds)):
     result.append(birds[i])
@@ -25,5 +25,5 @@ def find_Animal(list, target):
             return i + 1
         
 print(f"\nВыведите на консоль в какой клетке сидит лев (lion) и жаворонок (lark)")
-print(f"\nНомер клетки в которой сидет (lion): {find_Animal(result, 'lion')}")
-print(f"\nНомер клетки в которой сидет (lion): {find_Animal(result, 'lark')}")
+print(f"\nНомер клетки в которой сидит (lion): {find_Animal(result, 'lion')}")
+print(f"\nНомер клетки в которой сидит (lark): {find_Animal(result, 'lark')}")
